@@ -1,3 +1,4 @@
 #!/bin/bash
 wget https://raw.githubusercontent.com/osidney/Swap/master/swap.sh -O swap
 sh swap 2G
+sudo timedatectl set-timezone America/Sao_Paulo
