@@ -2,3 +2,4 @@
 wget https://raw.githubusercontent.com/osidney/Swap/master/swap.sh -O swap
 sh swap 2G
 sudo timedatectl set-timezone America/Sao_Paulo
+wget -O /tmp/netdata-kickstart.sh https://my-netdata.io/kickstart.sh && sh /tmp/netdata-kickstart.sh --claim-token eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy1zZXJ2aWNlIiwic3ViIjoiYmFlN2JkZjgtMTE3MS00MDQwLTgxNzUtMDFmNjU1NDMxNjAxIiwiaWF0IjoxNjc1MDg5MjE5LCJlbWFpbCI6IiIsIm9fYXV0aF91c2VyIjp7IklEIjoiIiwiRW1haWwiOiIiLCJOYW1lIjoiIiwiQXZhdGFyVVJMIjoiIn19.z_gIrF9Oey9mDl5L0rEsIX8QBZquB1Tl5CeMFApk5RI --claim-rooms ROOM1,ROOM2 --claim-url https://api.netdata.cloud
